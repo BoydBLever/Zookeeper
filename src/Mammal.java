@@ -1,13 +1,11 @@
 public class Mammal {
-	protected int energyLevel;
-	public Mammal(){
+	private int energyLevel = 100;
+	
+	public Mammal() {
 		this.energyLevel = 100;
 	}
+	
 	public int displayEnergy() {
-		System.out.println(this.energyLevel);
-		return this.energyLevel;
-	}
-	public void changeEnergy(int amt){
-		this.energyLevel += amt;
+		return energyLevel;
 	}
 }

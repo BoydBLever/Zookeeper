@@ -1,22 +1,20 @@
 public class Bat extends Mammal {
-	public Bat(){
-		super();
-		this.energyLevel = 300;
-	}
+
+	private int energyLevel = 300;
 	
 	public void fly() {
 		System.out.println("Flutter flutter swoosh");
-		this.changeEnergy(-50);
+		energyLevel -= 50;
 	}
 	
 	public void eatHumans() {
 		System.out.println("so, well nevermind!");
-		this.changeEnergy(25);
+		energyLevel += 25;
 	}
 	
 	public void attackTown() {
 		System.out.println("ROARING FIRE!");
-		this.changeEnergy(-100);
+		energyLevel -= 100;
 	}
 	
 }
