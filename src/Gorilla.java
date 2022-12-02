@@ -1,6 +1,6 @@
 public class Gorilla extends Mammal {
 	//employ a constructor
-	public Gorilla(){ //capitalize Gorilla?
+	public Gorilla(){ //capitalize Gorilla
 		super(); //superconstructor
 	}
 	public void throwSomething() {

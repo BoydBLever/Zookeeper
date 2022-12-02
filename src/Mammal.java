@@ -1,7 +1,9 @@
 public class Mammal {
+	//Declare the energyLevel variable
 	private int energyLevel;
 	
 	public Mammal() {
+	//Assign the energyLevel variable	
 		this.energyLevel = 100;
 	}
 	
